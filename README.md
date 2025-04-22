@@ -33,9 +33,4 @@ This mini-project builds an end-to-end machine learning pipeline to predict fore
 - **Library**: scikit-learn
 - **Metrics**: Accuracy Score, Confusion Matrix, Classification Report
 
-## 🚀 How to Run
 
-1. Clone the repo:
-```bash
-git clone https://github.com/yourusername/algerian-forest-fire-ml.git
-cd algerian-forest-fire-ml
