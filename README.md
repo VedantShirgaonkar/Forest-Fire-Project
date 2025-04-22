@@ -1,4 +1,4 @@
-# 🧠 Machine Learning Mini Project
+# Forest Fire Classification Mini Project
 
 This project demonstrates a basic ML pipeline including dataset cleaning and model training using Python and scikit-learn.
 
