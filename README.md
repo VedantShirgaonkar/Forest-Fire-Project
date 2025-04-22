@@ -13,8 +13,6 @@ The objective is to:
 
 - `dataset_cleaning.ipynb`: Jupyter Notebook for data preprocessing and cleaning
 - `model_training.ipynb`: Notebook for training and evaluating the ML model
-- `ml_project_screenshots.pdf`: Contains input/output screenshots
-- `README.md`: Project documentation
 
 ## 📚 Technologies Used
 
@@ -22,4 +20,3 @@ The objective is to:
 - pandas, numpy
 - scikit-learn
 - matplotlib, seaborn
-- Jupyter Notebook
