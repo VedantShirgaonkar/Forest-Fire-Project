@@ -1,22 +1,41 @@
-# Forest Fire Classification Mini Project
+# 🔥 ML Mini Project: Algerian Forest Fire Classification
 
-This project demonstrates a basic ML pipeline including dataset cleaning and model training using Python and scikit-learn.
+This mini-project builds an end-to-end machine learning pipeline to predict forest fires based on meteorological data from Algeria. It includes data preprocessing, feature engineering, model training using a Random Forest Classifier, and performance evaluation.
 
-## 🔍 Overview
+## 📁 Dataset Description
 
-The objective is to:
-- Clean raw data using preprocessing techniques
-- Train a machine learning model on the cleaned dataset
-- Evaluate the model's performance using standard metrics
+- **Source**: UCI Machine Learning Repository (Algerian Forest Fires Dataset)
+- **Instances**: 244 samples
+- **Regions**: Bejaia and Sidi Bel-abbes (122 each)
+- **Period**: June 2012 – September 2012
+- **Target**: `Classes` (fire or not fire)
+
+## ⚙️ Features Used
+
+- Temperature
+- RH (Relative Humidity)
+- WS (Wind Speed)
+- Rain
+- FFMC, DMC, DC, ISI (Fire Weather Indices)
+- Region (Encoded)
+- Classes (1 = fire, 0 = not fire)
 
 ## 📂 Project Structure
 
-- `dataset_cleaning.ipynb`: Jupyter Notebook for data preprocessing and cleaning
-- `model_training.ipynb`: Notebook for training and evaluating the ML model
+- `dataset_cleaning.ipynb`: Handles EDA, data cleaning, encoding, and feature scaling.
+- `model_training.ipynb`: Trains and evaluates the Random Forest model.
+- `Algerian_forest_fires_dataset.csv`: The dataset file.
+- `README.md`: This documentation.
 
-## 📚 Technologies Used
+## 📊 Model Used
 
-- Python
-- pandas, numpy
-- scikit-learn
-- matplotlib, seaborn
+- **Algorithm**: Random Forest Classifier
+- **Library**: scikit-learn
+- **Metrics**: Accuracy Score, Confusion Matrix, Classification Report
+
+## 🚀 How to Run
+
+1. Clone the repo:
+```bash
+git clone https://github.com/yourusername/algerian-forest-fire-ml.git
+cd algerian-forest-fire-ml
